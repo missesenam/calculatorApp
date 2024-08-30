@@ -1,0 +1,181 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    // hey
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'primary1': '#000000',
+            'primary2': '#ffffff',
+            'gray': '#a5a5a5',
+            'gray1': '#505151',
+            'gray2': '#dbe2ea',
+            'dark': '#232c35',
+            'orange': '#ff9f0c',
+            'down': '#f5f5f5',
+            'down1': '#2a3542',
+          },
+          width: {
+            'width': '250px',
+            // 'width1': '250px',
+          },
+          height: {
+            'he': '520px',
+            // 'he1': '490px',
+
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="grid place-items-center h-[100vh] ">
+<div class="bg-gray2 w-[80vw] h-[95vh] flex justify-center items-center ">
+
+  <div class="-rotate-12 z-10 flex justify-center items-center w-width h-he bg-gray2 rounded-[32px] border-[6px] border-primary2">
+
+
+    <div class=" w-[96%] h-[98%] ">
+      <!-- top -->
+      <div class="bg-primary2 px-3 h-[40%] flex flex-col rounded-t-[24px]
+      " id="dark1">
+        <div class="flex justify-between mt-1 mb-3">
+          <p class="font-medium  text-sm">9:41</p>
+          <div class="flex space-x-1">
+            <img src="./icon/network-cellular-signal-excellent-svgrepo-com.svg" alt="network" width="15px">
+            <img src="./icon/network-wireless-svgrepo-com.svg" alt="wifi" width="15px">
+            <img src="./icon/battery-twotone-100-svgrepo-com.svg" alt="battery" width="15px">
+          </div>
+        </div>
+        <button>
+          <img src="./icon/moon-svgrepo-com.svg" alt="moon" width="20px">
+        </button>
+
+        <div class="mt-8 self-end ">
+          <p class="text-gray">56+8+6+58</p>
+          <h1 class="font-bold text-3xl float-right">396</h1>
+        </div>
+      </div>
+      <!-- down -->
+      <div class="bg-down px-2 py-3 grid grid-cols-4 grid-rows-5 gap-3 rounded-b-[24px]" id="dark2">
+        <!-- 1 -->
+        <div class="bg-gray rounded-[50%] grid place-items-center ">%</div>
+
+        <div class="bg-gray rounded-[50%] grid place-items-center ">x</div>
+        
+        <div class="bg-gray rounded-[50%] grid place-items-center "> &#xF7; </div>
+
+        <div class="bg-orange rounded-[50%] grid place-items-center ">&#10232;</div>
+        <!-- 2 -->
+        <div class="bg-gray1 rounded-[50%] grid place-items-center ">7</div>
+
+        <div class="bg-gray1 w-[45px] h-[45px] rounded-[50%] grid place-items-center ">8</div>
+
+        <div class="bg-gray1 rounded-[50%] grid place-items-center ">9</div>
+
+        <div class="bg-orange rounded-[50%] grid place-items-center ">-</div>
+        <!-- 3 -->
+        <div class="bg-gray1 rounded-[50%] grid place-items-center ">4</div>
+
+        <div class="bg-gray1 rounded-[50%] grid place-items-center ">5</div>
+
+        <div class="bg-gray1 rounded-[50%] grid place-items-center ">6</div>
+
+        <div class="bg-orange rounded-[50%] grid place-items-center ">+</div>
+        <!-- 4 -->
+        <div class="bg-gray1 rounded-[50%] grid place-items-center ">1</div>
+
+        <div class="bg-gray1 rounded-[50%] grid place-items-center ">2</div>
+
+        <div class="bg-gray1 rounded-[50%] grid place-items-center ">3</div>
+
+        <div class="bg-orange  rounded-3xl grid place-items-center row-span-2">=</div>
+        <!-- 5 -->
+        <div class="bg-gray1 rounded-[50%] grid place-items-center ">AC</div>
+
+        <div class="bg-gray1 rounded-[50%] grid place-items-center ">0</div>
+
+        <div class="bg-gray1 rounded-[50%] grid place-items-center ">.</div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="rotate-12 flex justify-center items-center w-width h-he bg-gray2 rounded-[32px] border-[6px] border-primary2">
+
+
+    <div class="  bg-black rounded-3xl w-[96%] h-[98%]">
+      <!-- top -->
+      <div class="bg-dark px-3 h-[40%] flex flex-col rounded-t-[24px]
+      ">
+        <div class="flex justify-between mt-1 mb-3">
+          <p class="font-medium text-primary2 text-sm">9:41</p>
+          <div class="flex space-x-1">
+            <img src="./icon/network-cellular-signal-w-excellent-svgrepo-com (1).svg" alt="network" width="15px">
+            <img src="./icon/network-wireless-white-svgrepo-com.svg" alt="wifi" width="15px">
+            <img src="./icon/battery-svgrepo-com.svg" alt="battery" width="15px">
+          </div>
+        </div>
+        <button>
+          <img src="./icon/sun-svgrepo-com.svg" alt="moon" width="20px">
+        </button>
+
+        <div class="mt-8 self-end ">
+          <p class="text-gray">56+8+6+58</p>
+          <h1 class="font-bold text-3xl float-right text-primary2">396</h1>
+        </div>
+      </div>
+      <!-- down -->
+      <div class="bg-down1 px-2 py-3 grid grid-cols-4 grid-rows-5 gap-3 rounded-b-[24px] h-[60%]" >
+        <!-- 1 -->
+        <div class="bg-gray rounded-[50%] grid place-items-center ">%</div>
+
+        <div class="bg-gray rounded-[50%] grid place-items-center ">x</div>
+        
+        <div class="bg-gray rounded-[50%] grid place-items-center "> &#xF7; </div>
+
+        <div class="bg-orange rounded-[50%] grid place-items-center ">&#10232;</div>
+        <!-- 2 -->
+        <div class="bg-gray1 rounded-[50%] grid place-items-center ">7</div>
+
+        <div class="bg-gray1 w-[45px] h-[45px] rounded-[50%] grid place-items-center ">8</div>
+
+        <div class="bg-gray1 rounded-[50%] grid place-items-center ">9</div>
+
+        <div class="bg-orange rounded-[50%] grid place-items-center ">-</div>
+        <!-- 3 -->
+        <div class="bg-gray1 rounded-[50%] grid place-items-center ">4</div>
+
+        <div class="bg-gray1 rounded-[50%] grid place-items-center ">5</div>
+
+        <div class="bg-gray1 rounded-[50%] grid place-items-center ">6</div>
+
+        <div class="bg-orange rounded-[50%] grid place-items-center ">+</div>
+        <!-- 4 -->
+        <div class="bg-gray1 rounded-[50%] grid place-items-center ">1</div>
+
+        <div class="bg-gray1 rounded-[50%] grid place-items-center ">2</div>
+
+        <div class="bg-gray1 rounded-[50%] grid place-items-center ">3</div>
+
+        <div class="bg-orange  rounded-3xl grid place-items-center row-span-2">=</div>
+        <!-- 5 -->
+        <div class="bg-gray1 rounded-[50%] grid place-items-center ">AC</div>
+
+        <div class="bg-gray1 rounded-[50%] grid place-items-center ">0</div>
+
+        <div class="bg-gray1 rounded-[50%] grid place-items-center ">.</div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>
