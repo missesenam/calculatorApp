@@ -25,7 +25,6 @@ function calculate(){
         showresult.value = eval(display.value)
     }
     catch{
-        showresult.value = 'error'
-        alert('put smtg u airhaid')
+        showresult.value = 'Error'
     }
 }
